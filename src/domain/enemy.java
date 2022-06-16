@@ -5,6 +5,7 @@ public class enemy {
     private String type;
     private String[] typeArray;
     private String classification;
+    private int enemyCount;
 
     public void setName(String name) {
         this.name = name;
@@ -36,5 +37,13 @@ public class enemy {
 
     public String getClassification() {
         return classification;
+    }
+
+    public void setEnemyCount(int enemyCount) {
+        this.enemyCount = enemyCount;
+    }
+
+    public int getEnemyCount() {
+        return enemyCount;
     }
 }

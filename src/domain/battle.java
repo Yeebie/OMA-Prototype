@@ -7,11 +7,14 @@ public class battle {
     private int bossChance;
     private int enemyTypeChance;
     private int enemyType;
-    private int maxEnemies;
     private int enemyCount;
+    private int maxEnemies;
     Random random = new Random();
 
     public void generateEncounter() {
+        /**
+         * Rolling Boss Chance
+         */
         bossChance = 20;
         enemy Enemy = new enemy();
         String[] type = {"Boss", "Mob"};
@@ -23,18 +26,24 @@ public class battle {
             enemyType = 1;
         }
         Enemy.setType(enemyType);
-
         //Debug print statements
         System.out.println("");
         System.out.println("Mob Type: " + Enemy.getType());
         System.out.println("Current Percentage Roll: " + enemyTypeChance + "%");
         System.out.println("Boss Spawn Chance: " + bossChance + "%");
-/**
+        /**
+         * Mob count
+         * Just 1 boss for now
+         */
+        maxEnemies = 3;
+        if (enemyType == 0){
+            enemyCount = 1;
+        } else {
+            enemyCount = random.nextInt(maxEnemies) + 1;
+            Enemy.setEnemyCount(enemyCount);
+        }
+        System.out.println("Amount of enemies in group: " +  enemyCount);
 
-        int maxEnemies =
-
-                = random.nextInt();
- */
     }
 
     public String generateAbility() {
