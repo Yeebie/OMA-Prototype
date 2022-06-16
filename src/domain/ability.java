@@ -1,9 +1,11 @@
 package domain;
 
+import java.util.ArrayList;
+
 public class ability {
     private String name;
     private String description;
-    private String type;
+    private ArrayList<String> type = new ArrayList<String>();
 
     public void setName(String name){
         this.name = name;
@@ -21,11 +23,11 @@ public class ability {
         return description;
     }
 
-    public void setType(String type){
+    public void setType(ArrayList<String> type){
         this.type = type;
     }
 
-    public String getType(){
+    public ArrayList<String> getType(){
         return type;
     }
 }

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd62f72f-3360-4f05-93f1-bea4d2845a4a" name="Changes" comment="Battle now calculates the amount of mobs in a battle.&#10;&#10;OMA-Prototype:&#10;  OMA-Prototype &gt; src &gt; domain &gt; ...&#10;  - battle.java                    | Added calculation to generate a group of mobs.&#10;  - enemy.java                     | Added enemyCount, tidied constructors.&#10;&#10;References: #3&#10;Resolves: #3&#10;&#10;Notes: (´・ω・)っ由&#10;  - Did Intellij automatically format these constructors?&#10;  - Either having a group of mobs or a single boss is good enough.">
+    <list default="true" id="fd62f72f-3360-4f05-93f1-bea4d2845a4a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/ability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/ability.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/domain/battle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/battle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/enemy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655358829853</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Battle now calculates the amount of mobs in a battle.&#10;&#10;OMA-Prototype:&#10;  OMA-Prototype &gt; src &gt; domain &gt; ...&#10;  - battle.java                    | Added calculation to generate a group of mobs.&#10;  - enemy.java                     | Added enemyCount, tidied constructors.&#10;&#10;References: #3&#10;Resolves: #3&#10;&#10;Notes: (´・ω・)っ由&#10;  - Did Intellij automatically format these constructors?&#10;  - Either having a group of mobs or a single boss is good enough.">
+      <created>1655360187097</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655360187097</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

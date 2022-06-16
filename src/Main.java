@@ -9,9 +9,9 @@ public class Main {
         //Generate the enemies
         Battle.generateEncounter();
         //Gather encounter and enemy attributes and pick a decent ability
-        /**generateAbility();
+        Battle.generateAbility();
         //Use the ability and see what happens
-        combatConclusion();
+        /**combatConclusion();
          */
     }
 }
